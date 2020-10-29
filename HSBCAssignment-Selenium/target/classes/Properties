@@ -1,0 +1,8 @@
+#locators for amazon login
+#double #is used to separate both locator type and value
+ URL=https://www.google.com/
+ Signin=XPATH##//*[@id='gb_70']
+ email=XPATH##//*[@id="identifierId"]
+ Next=XPATH##//*[@id="identifierNext"]/div/button/div[2]
+ password=XPATH##//*[@id="password"]/div[1]/div/div[1]/input
+ submit=CSS###//*[@id="passwordNext"]/div/button/div[2]

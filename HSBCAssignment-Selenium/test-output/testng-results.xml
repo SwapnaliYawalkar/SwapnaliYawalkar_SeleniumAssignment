@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="225663" started-at="2020-10-29T11:54:56Z" finished-at="2020-10-29T11:58:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="225663" started-at="2020-10-29T11:54:56Z" finished-at="2020-10-29T11:58:42Z">
+      <class name="Com.Assignment3.TabHandling">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Com.Assignment3.TabHandling@5ef60048]" name="setUp" is-config="true" duration-ms="135188" started-at="2020-10-29T17:24:56Z" finished-at="2020-10-29T17:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tabHandling()[pri:0, instance:Com.Assignment3.TabHandling@5ef60048]" name="tabHandling" duration-ms="83953" started-at="2020-10-29T17:27:11Z" finished-at="2020-10-29T17:28:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabHandling -->
+        <test-method status="PASS" signature="WebDriverClosure()[pri:0, instance:Com.Assignment3.TabHandling@5ef60048]" name="WebDriverClosure" is-config="true" duration-ms="6443" started-at="2020-10-29T17:28:35Z" finished-at="2020-10-29T17:28:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebDriverClosure -->
+      </class> <!-- Com.Assignment3.TabHandling -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
