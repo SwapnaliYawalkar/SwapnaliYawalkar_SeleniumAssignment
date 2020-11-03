@@ -14,8 +14,7 @@ public class TabHandling {
 
 	@BeforeClass
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver",
-				"D:\\Swapnali\\JAVA\\SP\\JARFiles\\ChromeDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:\\Swapnali\\JAVA\\SP\\JARFiles\\ChromeDriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://openclinic.sourceforge.net/openclinic/home/index.php");
